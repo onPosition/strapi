@@ -1,36 +1,38 @@
 {
-  "name": "kts-strapi-project",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A Strapi application",
-  "scripts": {
-    "build": "strapi build",
-    "deploy": "strapi deploy",
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "strapi": "strapi"
-  },
-  "dependencies": {
-    "@strapi/plugin-cloud": "5.1.1",
-    "@strapi/plugin-users-permissions": "5.1.1",
-    "@strapi/strapi": "5.1.1",
-    "better-sqlite3": "11.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
-  },
-  "engines": {
-    "node": ">=18.0.0 <=22.x.x",
-    "npm": ">=6.0.0"
-  },
-  "strapi": {
-    "uuid": "b392d7ca-3b4f-454e-9811-c6a47d2cbcf8"
-  }
+    "name": "kts-strapi-project",
+    "version": "0.1.0",
+    "private": true,
+    "description": "A Strapi application",
+    "scripts": {
+        "build": "strapi build",
+        "deploy": "strapi deploy",
+        "develop": "strapi develop",
+        "start": "strapi start",
+        "start-all": "concurrently \"strapi develop\" \"cd .. && cd next && npm run dev\"",
+        "strapi": "strapi"
+    },
+    "dependencies": {
+        "@strapi/plugin-cloud": "5.1.1",
+        "@strapi/plugin-users-permissions": "5.1.1",
+        "@strapi/strapi": "5.1.1",
+        "better-sqlite3": "11.3.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-router-dom": "^6.0.0",
+        "styled-components": "^6.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "concurrently": "^9.1.0",
+        "typescript": "^5"
+    },
+    "engines": {
+        "node": ">=18.0.0 <=22.x.x",
+        "npm": ">=6.0.0"
+    },
+    "strapi": {
+        "uuid": "b392d7ca-3b4f-454e-9811-c6a47d2cbcf8"
+    }
 }

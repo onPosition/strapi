@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts_categories",
+  "info": {
+    "singularName": "posts-category",
+    "pluralName": "posts-categories",
+    "displayName": "Категории Постов",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category_name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "mappedBy": "post_category"
+    }
+  }
+}
