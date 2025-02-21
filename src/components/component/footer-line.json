@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_footer_lines",
+  "info": {
+    "displayName": "footer-line",
+    "icon": "oneToOne",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "displayName": "footer-text",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.footer-text",
+      "max": 7
+    }
+  }
+}

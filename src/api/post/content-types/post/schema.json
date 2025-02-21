@@ -35,10 +35,20 @@
       "type": "blocks"
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title"
     },
-    "popular": {
-      "type": "boolean"
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "dinamyc-zone.cta",
+        "dinamyc-zone.related-posts"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "services-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "services": {
+      "displayName": "section-title",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-title"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

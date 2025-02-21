@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_component_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.button",
+      "max": 2
+    },
+    "line": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.footer-line"
+    }
+  }
+}

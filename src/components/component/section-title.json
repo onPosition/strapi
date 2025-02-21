@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_section_titles",
+  "info": {
+    "displayName": "section-title",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

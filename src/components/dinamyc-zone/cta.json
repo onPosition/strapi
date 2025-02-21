@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_dinamyc_zone_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "service": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_menus",
+  "info": {
+    "displayName": "navigation",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navigation_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.menu-item",
+      "max": 3,
+      "required": true
+    }
+  }
+}

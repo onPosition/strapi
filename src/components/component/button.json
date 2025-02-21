@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_component_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "maxLength": 25,
+      "required": true
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "required": true,
+      "default": "primary"
+    }
+  }
+}

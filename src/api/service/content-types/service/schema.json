@@ -30,6 +30,12 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "otzyvies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::review.review",
+      "mappedBy": "uslugis"
     }
   }
 }

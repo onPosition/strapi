@@ -26,6 +26,9 @@
       "relation": "manyToMany",
       "target": "api::video.video",
       "mappedBy": "video_category"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

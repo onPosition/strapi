@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_footer_texts",
+  "info": {
+    "displayName": "footer-text",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
