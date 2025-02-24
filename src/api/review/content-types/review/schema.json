@@ -33,11 +33,11 @@
       "type": "date",
       "required": true
     },
-    "uslugis": {
+    "services": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::service.service",
-      "inversedBy": "otzyvies"
+      "mappedBy": "reviews"
     }
   }
 }

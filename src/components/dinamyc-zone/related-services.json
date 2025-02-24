@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dinamyc_zone_related_services",
+  "info": {
+    "displayName": "related_services",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

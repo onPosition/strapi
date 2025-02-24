@@ -16,9 +16,6 @@
       "type": "string",
       "required": true
     },
-    "text": {
-      "type": "blocks"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -31,11 +28,35 @@
       "type": "uid",
       "targetField": "title"
     },
-    "otzyvies": {
+    "reviews": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::review.review",
-      "mappedBy": "uslugis"
+      "inversedBy": "services"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.header"
+    },
+    "relates_services": {
+      "displayName": "related_services",
+      "type": "component",
+      "repeatable": false,
+      "component": "dinamyc-zone.related-services"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-text"
+    },
+    "price": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-text"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

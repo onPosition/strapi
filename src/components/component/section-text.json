@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_section_texts",
+  "info": {
+    "displayName": "section-text",
+    "icon": "italic"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "blocks"
+    }
+  }
+}
